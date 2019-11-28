@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="TestFlightFinderPage(failed)">
+    <classes>
+      <class name="com.sampledemo.pagefactory.testcase.flightFinderPageTestcase">
+        <methods>
+          <include name="browserAndHomePagelanding"/>
+          <include name="endReport"/>
+          <include name="defaultValidation"/>
+          <include name="closingBrowserAndUpdateReport"/>
+          <include name="extentreportSetup"/>
+        </methods>
+      </class> <!-- com.sampledemo.pagefactory.testcase.flightFinderPageTestcase -->
+    </classes>
+  </test> <!-- TestFlightFinderPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
